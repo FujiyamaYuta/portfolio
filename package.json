@@ -13,7 +13,7 @@
     ],
     "homepage": "https://startbootstrap.com/template-overviews/resume",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "url": "https://github.com/FujiyamaYuta/portfolio/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/FujiyamaYuta/portfolio.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.2.0",
