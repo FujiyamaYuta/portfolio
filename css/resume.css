@@ -4,6 +4,22 @@
  * Licensed under MIT (https://github.com/FujiyamaYuta/startbootstrap-resume/blob/master/LICENSE)
  */
 
+.wf-mplus1p {
+  font-family: "Mplus 1p";
+}
+
+.wf-nicomoji {
+  font-family: "Nico Moji";
+}
+
+.wf-roundedmplus1c {
+  font-family: "Rounded Mplus 1c";
+}
+
+.wf-notosansjapanese {
+  font-family: "Noto Sans Japanese";
+}
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -81,6 +97,35 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #26317e;
+}
+
+p {
+  line-height: 1.75em;
+}
+
+html:before,
+html:after,
+body:before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid #26317e;
+}
+
+html:after {
+  z-index: 20;
+  top: auto;
+  border-width: 0 0 20px;
+}
+
+body:before {
+  z-index: 20;
+  bottom: auto;
+  border-width: 20px 0 0;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {

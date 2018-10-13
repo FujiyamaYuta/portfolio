@@ -1,5 +1,10 @@
 // Global styling for this template
 
+.wf-mplus1p { font-family: "Mplus 1p"; }
+.wf-nicomoji { font-family: "Nico Moji"; }
+.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+.wf-notosansjapanese { font-family: "Noto Sans Japanese"; }
+
 body {
   @include body-font;
   padding-top: 54px;
@@ -77,4 +82,36 @@ p.lead {
       color: $blue;
     }
   }
+}
+
+p{
+  line-height:1.75em;
+}
+
+
+// ** 外枠の線 **
+
+html:before,
+html:after,
+body:before {
+    content:"";
+    position:fixed;
+    z-index:-1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border:10px solid #26317e;
+}
+ 
+html:after {
+    z-index:20;
+    top:auto;
+    border-width:0 0 20px;
+}
+ 
+body:before {
+    z-index:20;
+    bottom:auto;
+    border-width:20px 0 0;
 }
